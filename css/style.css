@@ -57,32 +57,33 @@ body{
 	font-family: 'Voltaire', sans-serif;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #7277d5;
+    color: #005baa;
     background:none !important;
     border-radius: 5px;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #e7663f;
+    color: #005baa;
     font-size: 1.3em;
 	font-family: 'Voltaire', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #7277d5;
-    background:none !important;
+    /*background:none !important;*/
     border-radius: 5px;
+    background: #fabd00;
+    color: #FFFFFF;
 }
 .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #7277d5;
+    color: #005baa;
     background-color: #fff;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #e7663f;
+    background-color: #fabd00;
 }
 .dropdown-menu > li > a {
     display: block;
@@ -92,7 +93,7 @@ body{
 	font-family: 'Voltaire', sans-serif;
 }
 /*banner*/
-.banner {background: #7277d5;padding: 20px 0 20px 0;}
+.banner {background: #005baa;padding: 20px 0 20px 0;}
 .banner-grid h3 {
     font-size: 3.5em;
     text-transform: capitalize;
@@ -110,7 +111,7 @@ a.button {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 2em;
     display: block;
     width: 27%;
@@ -151,13 +152,13 @@ a.button:hover {
 }
 .brilliant-left i {
     font-size: 1.3em;
-    background: #7277d5;
+    background: #005baa;
     padding: 1em 1em;
     color: #fff;
 	border-radius: 2px;
 }
 .brilliant-left i:hover{
-background: #e7663f;
+background: #fabd00;
 }
 .brilliant-right h4 {
     font-size: 1.5em;
@@ -205,7 +206,7 @@ background: #e7663f;
 }
 .da-thumbs li a div {
     position: absolute;
-    background:rgba(231, 102, 63, 0.75);
+    background:rgba(255, 160, 0, 0.75);
     width: 100%;
     height: 100%;
 }
@@ -250,7 +251,7 @@ background: #e7663f;
 	margin-top:4em;
 }
 .pricing {
-    background: #7277d5;
+    background: #005baa;
 	 border-top: 4px solid #4E5298;
 }
 .price-top {
@@ -301,7 +302,7 @@ a.button1 {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 2em;
     display: block;
     width: 100%;
@@ -372,11 +373,11 @@ a.button1:hover {
     text-decoration: none;
     text-transform: capitalize;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
 	border-radius: 3px;
 }
 .footer-grid ul li a:hover {
-	background: #7277d5;
+	background: #005baa;
 }
 .second {
     margin-top: .5em;
@@ -390,7 +391,7 @@ a.button1:hover {
 .recent-great1 a {
     font-size: .9em;
     text-decoration: none;
-    color: #e7663f;
+    color: #fabd00;
     padding: 0;
 }
 .recent-grids {
@@ -406,7 +407,7 @@ a.button1:hover {
     color: #777;
 }
 .footer-grid a {
-    color: #e7663f;
+    color: #fabd00;
 }
 .footer-grid a:hover{
     color: #fff;
@@ -467,7 +468,7 @@ a.button1:hover {
 }
 .what-left i {
     font-size: 2em;
-    background: #7277d5;
+    background: #005baa;
     padding: 1em 1em;
     color: #fff;
     border-radius: 2px;
@@ -496,7 +497,7 @@ a.button1:hover {
     margin-top: 3em;
 }
 .what-left i:hover {
-    background: #e7663f;
+    background: #fabd00;
 }
 .whatdo {
     padding: 4em 0;
@@ -504,7 +505,7 @@ a.button1:hover {
 .solution-section{
 	padding:4em 0;
 	text-align: center;
-	background: #e7663f;
+	background: #fabd00;
 }
 .solution-section h3 {
     font-size: 3em;
@@ -541,7 +542,7 @@ a.button1:hover {
     margin-top: 3em;
 }
 .statistic {
-    background: #7277d5;
+    background: #005baa;
     padding: 2em 2em;
     border-radius: 50%;
     width: 100%;
@@ -586,7 +587,7 @@ a.button1:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #E7663F;
+  background: #fabd00;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -717,7 +718,7 @@ a.button1:hover {
     padding-left: 25px;
 }
 .services-price ul li:hover {
-    color: #E7663F;
+    color: #fabd00;
 }
 .services-prices {
     padding: 5em 0;
@@ -725,11 +726,11 @@ a.button1:hover {
 .services-price {
 	background: #272727;
     padding: 2em 2em;
-	border-top: 20px solid #E7663F;
+	border-top: 20px solid #fabd00;
 	border-radius: 30px 0;
 }
 .Consulting {
-    border-bottom: 1px solid #e7663f;
+    border-bottom: 1px solid #fabd00;
     padding-bottom: 2em;
     width: 65%;
 }
@@ -738,7 +739,7 @@ a.button2 {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 2em;
     display: block;
     width: 47%;
@@ -984,7 +985,7 @@ h2.typoh2{
 .blog-grid {
     text-align: center;
     padding: 0;
-	background:#7277d5;
+	background:#005baa;
 }
 .blog-grid1 {
     padding: 0;
@@ -1034,14 +1035,14 @@ a.button3{
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 2em;
     width: 13%;
     display: block;
     margin-top: 1em;
 }
 a.button3:hover{
-background: #7277d5;
+background: #005baa;
 }
 .blog-grids {
     margin-top: 4em;
@@ -1049,8 +1050,8 @@ background: #7277d5;
 /**single**/
 ul.blog-ic {
     margin-top: 1.5em;
-	border-top: 1px solid #7277d5;
-    border-bottom: 1px solid #7277d5;
+	border-top: 1px solid #005baa;
+    border-bottom: 1px solid #005baa;
     padding: 1em 0;
 }
 ul.blog-ic li {
@@ -1171,7 +1172,7 @@ ul.blog-ic li span i {
     margin: 1em 0;
 }
 .coment-form input[type="submit"] {
-   background: #7277d5;
+   background: #005baa;
     border: none;
     padding: 1em 0;
     width: 13%;
@@ -1186,7 +1187,7 @@ ul.blog-ic li span i {
     -ms-transition: .5s all;
 }
 .coment-form input[type="submit"]:hover{
- background: #e7663f;
+ background: #fabd00;
 }
 .coment-form input[type="checkbox"] {
     vertical-align: sub;
@@ -1215,12 +1216,12 @@ ul.blog-ic li span i {
 }
 .detailed-top {
     padding: 1.5em 0;
-    background: #7277d5;
-    border-bottom: 5px solid #E7663F;
+    background: #005baa;
+    border-bottom: 5px solid #fabd00;
 }
 .detailed-top:hover {
-    background: #e7663f;
-	border-bottom: 5px solid #7277d5;
+    background: #fabd00;
+	border-bottom: 5px solid #005baa;
 }
 .detailed-grid {
     transition: 0.5s all;
@@ -1269,7 +1270,7 @@ ul.blog-ic li span i {
 }
 .table-top {
    padding: .7em 1em;
-    background: #7277d5;
+    background: #005baa;
 }
 .table-top h4 {
     font-size: 2.5em;
@@ -1317,14 +1318,14 @@ a.button4 {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 2em;
     display: block;
     width: 100%;
     text-align: right;
 }
 a.button4:hover {
-    background: #7277D5;
+    background: #005baa;
 }
 .table-grids {
     margin-top: 3em;
@@ -1344,10 +1345,10 @@ a.button4:hover {
     width: 50%;
     float: left;
     padding: 3em 4em;
-    background: #e7663f;
+    background: #fabd00;
 }
 .simple-left:hover {
-    background: #7277D5;
+    background: #005baa;
 }
 .simple-right {
     width: 50%;
@@ -1378,12 +1379,12 @@ a.button4:hover {
     margin-top: 2em;
     display: block;
     text-transform: uppercase;
-    background: #7277d5;
+    background: #005baa;
     width: 100%;
     padding: 1em;
 }
 .simple-right a:hover {
-    background: #E7663F;
+    background: #fabd00;
 }
 .simple-grids {
     margin-top: 3em;
@@ -1444,7 +1445,7 @@ a.button4:hover {
 .faq-grids h5 {
     font-family: 'Voltaire', sans-serif;
     font-size: 1.4em;
-    color: #e7663f;
+    color: #fabd00;
 }
 .faq-grids p {
     font-size: 1em;
@@ -1469,7 +1470,7 @@ a.button4:hover {
 	padding: 0;
 }
 .login-left h3, .login-right h3 {
-	 color: #7277d5;
+	 color: #005baa;
     font-size: 2em;
     padding-bottom: 0.5em;
     font-weight: 600;
@@ -1484,7 +1485,7 @@ a.button4:hover {
 	line-height: 1.8em;
 }
 .acount-btn {
-	background: #e7663f;
+	background: #fabd00;
 	color: #FFF;
 	font-size: 1em;
 	padding: 0.7em 1.2em;
@@ -1496,7 +1497,7 @@ a.button4:hover {
 	text-transform: capitalize;
 }
 .acount-btn:hover, .login-right input[type="submit"]:hover{
-	background:#7277d5;
+	background:#005baa;
 	text-decoration:none;
 	color:#fff;
 }
@@ -1521,7 +1522,7 @@ a.button4:hover {
 	padding: 0.5em;
 }
 .login-right input[type="submit"] {
-	background: #e7663f;
+	background: #fabd00;
 	color: #FFF;
 	font-size: 1em;
 	padding: 0.7em 1.2em;
@@ -1539,7 +1540,7 @@ a.button4:hover {
 	padding:5em 0;
 }
 .register-top-grid h3, .register-bottom-grid h3 {
-	 color: #7277d5;
+	 color: #005baa;
     font-size: 2em;
     padding-bottom: 0.5em;
     font-weight: 600;
@@ -1637,7 +1638,7 @@ a.button4:hover {
 	margin-top:1em;
 }
 .register-but form input[type="submit"] {
-	background: #e7663f;
+	background: #fabd00;
 	color: #FFF;
 	font-size: 1.2em;
 	padding: 0.6em 2em;
@@ -1651,7 +1652,7 @@ a.button4:hover {
 	outline: none;
 }
 .register-but input[type="submit"]:hover {
-	background:#7277d5;
+	background:#005baa;
 }
 div.register-bottom-grid {
 	margin-top:3em;
@@ -1666,12 +1667,12 @@ div.register-bottom-grid {
 	width: 19%;
     margin-right: 3%;
     text-align: center;
-    background: #E7663F;
+    background: #fabd00;
     padding: 2em 2em;
     border-radius: 10px 0;
 }
 .history-left:hover {
-    background: #7277d5;
+    background: #005baa;
 }
 .history-right {
     float: left;
@@ -1698,12 +1699,12 @@ div.register-bottom-grid {
 }
 .support-grid i {
     font-size: 2em;
-    background: #e7663f;
+    background: #fabd00;
     padding: 1em 1em;
     color: #fff;
 }
 .support-grid i:hover {
-    background: #7277d5;
+    background: #005baa;
 }
 .support-grid h4{
     font-size: 1.5em;
@@ -1724,10 +1725,10 @@ font-size: 1em;
 }
 .support-grid h5 {
     font-size: 1.2em;
-    color: #e7663f;
+    color: #fabd00;
 }
 .supp-grids {
-    background: #7277d5;
+    background: #005baa;
     padding: 2em 1em;
     margin: 3em 0;
 	border-radius:5px;
@@ -1745,7 +1746,7 @@ font-size: 1em;
     margin-top: .5em;
 }
 .supp-grid1 a {
-        background: #e7663f;
+        background: #fabd00;
     border-bottom: 4px solid #773D2B;
     padding: .8em 2em;
     font-size: 1em;
@@ -1783,7 +1784,7 @@ font-size: 1em;
 	    background: #E2E2E2;
 }
 .client-grid a {
-    color: #e7663f;
+    color: #fabd00;
     font-size: 1.1em;
 }
 .client-grid {
@@ -1847,7 +1848,7 @@ font-size: 1em;
     font-weight: 600;
     line-height: 2em;
     font-family: 'Voltaire', sans-serif;
-    color: #e7663f;
+    color: #fabd00;
 }
 .linux-grid ul  {
    margin:2em 0;
@@ -1857,14 +1858,14 @@ font-size: 1em;
 }
 .linux-grid a {
     font-size: 1em;
-    background: #7277d5;
+    background: #005baa;
     color: #fff;
     padding: .8em 2em;
     text-transform: capitalize;
 	text-decoration: none;
 }
 .linux-grid a:hover {
-    background: #e7663f;
+    background: #fabd00;
 }
 .left-tab {
     margin-bottom: 1em;
@@ -1878,7 +1879,7 @@ font-size: 1em;
     border: none !important;
     border-radius:0;
 	color: #fff;
-	background:#7277d5;
+	background:#005baa;
 	padding: 1em 2em;
 	font-size:1.4em;
 	    font-family: 'Voltaire', sans-serif;
@@ -1886,7 +1887,7 @@ font-size: 1em;
 .left-tab > li.active > a, .left-tab > li.active > a:hover, .left-tab > li.active > a:focus{
 	color: #fff;
     cursor: default;
-    background-color: #e7663f;
+    background-color: #fabd00;
     border: none !important;
     border-bottom-color: none !important;
 } 
@@ -1919,7 +1920,7 @@ font-size: 1em;
 .linux-top {
     padding: 1.5em 0;
     background: #fff;
-    border-bottom: 5px solid #E7663F;
+    border-bottom: 5px solid #fabd00;
 }
 .linux-bottom h5 {
     font-size: 2em;
@@ -1928,20 +1929,20 @@ font-size: 1em;
     font-weight: 600;
 }
 .linux-price a:hover {
-    background: #E7663F;
+    background: #fabd00;
 }
 span.month {
     font-size: .5em;
     text-transform: capitalize;
 }
 .linux-bottom {
-    border: 1px solid #E7663F;
+    border: 1px solid #fabd00;
     padding: 1em 0;
 }
 .linux-bottom h6 {
     font-size: 1.5em;
     padding: 1em 0;
-    background: #E7663F;
+    background: #fabd00;
     font-family: 'Voltaire', sans-serif;
     color: #fff;
 }
@@ -1951,7 +1952,7 @@ span.month {
 .linux-price a {
     font-size: 1em;
     text-transform: capitalize;
-    background: #7277D5;
+    background: #005baa;
     width: 100%;
     padding: 1em 2em;
     display: block;
@@ -1959,19 +1960,19 @@ span.month {
 	text-decoration: none;
 }
 .us-top {
-    border-bottom: 5px solid #7277d5;
+    border-bottom: 5px solid #005baa;
 }
 .linux-bottom.us-bottom {
-    border: 1px solid #7277d5;
+    border: 1px solid #005baa;
 }
 .linux-bottom.us-bottom h6 {
-    background: #7277d5;
+    background: #005baa;
 }
 a.us-button {
-    background: #e7663f;
+    background: #fabd00;
 }
 a.us-button:hover {
-    background: #7277D5;
+    background: #005baa;
 }
 .clients {
     padding: 4em 0;
@@ -1980,8 +1981,8 @@ a.us-button:hover {
 .clients ul {
     margin: 3em 0 0 0;
     padding: 1em 0;
-    border-top: 2px solid #E7663F;
-	 border-bottom: 2px solid #E7663F;
+    border-top: 2px solid #fabd00;
+	 border-bottom: 2px solid #fabd00;
 }
 .clients ul li {
     display: inline-block;
@@ -2079,7 +2080,7 @@ a.us-button:hover {
     font-size: 1em;
     padding: 13px 0;
     width: 15.68%;
-    background:#e7663f;
+    background:#fabd00;
     border: none;
 	text-transform: uppercase;
     transition: .5s all;
@@ -2089,7 +2090,7 @@ a.us-button:hover {
     -ms-transition: .5s all;
 }
 .contact-left input[type="submit"]:hover,.contact-left input[type="reset"]:hover{
-	background:#7277d5;
+	background:#005baa;
 }
 .contact-left h4{
 	font-size: 2em;
@@ -2211,7 +2212,7 @@ a.button {
     font-size: 1.4em;
 }
 .statistic {
-    background: #7277d5;
+    background: #005baa;
     padding: 1.3em 1em;
 }
 a.button3 {
@@ -2414,7 +2415,7 @@ a.button {
     width: 50%;
 }
 .statistic {
-    background: #7277d5;
+    background: #005baa;
     padding: 3em 3em;
     width: 79%;
 }
@@ -2552,7 +2553,7 @@ a.button3 {
     width: 33.3%;
 }
 .Consulting {
-    border-bottom: 1px solid #e7663f;
+    border-bottom: 1px solid #fabd00;
     padding-bottom: 2em;
     width: 91%;
 }
@@ -2630,7 +2631,7 @@ a.button2 {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
     text-decoration: none;
-    background-color: #e7663f;
+    background-color: #fabd00;
 }
 .navbar-toggle {
    margin-right: 0px;
@@ -2639,7 +2640,7 @@ a.button2 {
     padding: 2em 0;
 }
 .navbar-default .navbar-toggle {
-    border-color: #e7663f;
+    border-color: #fabd00;
 }
 .navbar-toggle {
     position: relative;
@@ -2648,16 +2649,16 @@ a.button2 {
     margin-top: 8px;
     margin-right: 0px;
     margin-bottom: 8px;
-    background-color: #e7663f;
+    background-color: #fabd00;
     background-image: none;
-    border: 1px solid #e7663f;
+    border: 1px solid #fabd00;
     border-radius: 4px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #e7663f;
+    background-color: #fabd00;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #fff;
