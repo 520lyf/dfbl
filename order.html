@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>东方宝隆</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="keywords" content="" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="./awsome/css/font-awesome.min.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/modernizr.custom.97074.js"></script>
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<script type="text/javascript">
+		$(function () { $('.team a').Chocolat(); });
+	</script>
+	<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+	<script type="text/javascript">
+		$(function () { $(' #da-thumbs > li ').each(function () { $(this).hoverdir(); }); });
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+						 aria-expanded="false">
+							<i class="sr-only">Toggle navigation</i>
+							<i class="icon-bar"></i>
+							<i class="icon-bar"></i>
+							<i class="icon-bar"></i>
+						</button>
+						<div class="navbar-brand">
+							<h1>
+								<a href="index.html">东方宝隆</a>
+							</h1>
+						</div>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="index.html">首页
+									<i class="sr-only">(current)</i>
+								</a>
+							</li>
+							<li>
+								<a href="about.html">关于我们</a>
+							</li>
+							<li>
+								<a href="#">设备设施</a>
+							</li>
+							<li>
+								<a href="services.html">合作案例</a>
+							</li>
+							<li>
+								<a href="order.html">订单</a>
+							</li>
+							<li>
+								<a href="stock.html">仓库</a>
+							</li>
+							<li>
+								<a href="#">联系我们</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+		<p>订单>订单中心</p>
+		<table class="table table-bordered">
+			<tr>
+				<td colspan="11">
+					<h3>订单中心</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>订单号</td>
+				<td>下单时间</td>
+				<td>交货时间</td>
+				<td>产品名称</td>
+				<td>产品单位</td>
+				<td>产品尺寸</td>
+				<td>生产数量</td>
+				<td>订单状态</td>
+				<td>业务员</td>
+				<td>备注</td>
+				<td>操作</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="footer-section">
+		<div class="container">
+			<div class="copy-section">
+				<p>京ICP备123456号</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	var table = document.getElementsByClassName('table')[0];
+	for (var i = 2; i <= 20; i++) {
+		var tr = table.insertRow(i);
+		var date = new Date();
+		tr.insertCell(0).innerHTML = 'BL' + (new Date).getTime() + Math.floor(Math.random() * 100);
+		tr.insertCell(1).innerHTML = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
+		tr.insertCell(2).innerHTML = date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate();
+		tr.insertCell(3).innerHTML = ['几何', '线性代数', '时代周刊', '有机化学', '高等数学', '画册', '日历', '手提袋', '物理化学', '相对论', '大学', '孟子'][Math.floor(Math.random() * 12)];
+		tr.insertCell(4).innerHTML = '本';
+		tr.insertCell(5).innerHTML = '889×1194';
+		tr.insertCell(6).innerHTML = 1000 + Math.floor(Math.random() * 2000);
+		tr.insertCell(7).innerHTML = ['印刷中', '排产中', '配送中', '已完成', '已完成', '已完成', '已完成'][Math.floor(Math.random() * 6)];
+		tr.insertCell(8).innerHTML = ['赵更新', '杨阳'][Math.floor(Math.random() * 2)];
+		tr.insertCell(9).innerHTML = '';
+		tr.insertCell(10).innerHTML = "<a href='detail.html'>详情</a>|<a href='progress.html'>进度</a>|<a href='logistic.html'>物流</a>";
+	}
+</script>
+
+</html>
