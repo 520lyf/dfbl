@@ -3659,8 +3659,13 @@ a.button2 {
 }
 .content{
     width: 90%;
-    min-width: 1000px;
     margin: 10px auto;
+}
+@media(max-width:420px){
+    .content{
+        width: 100%;
+        margin: 10px auto;
+    }
 }
 .content table{
     text-align: center;
