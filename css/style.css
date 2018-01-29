@@ -3372,46 +3372,19 @@ a.button2 {
 }
 }
 @media (max-width: 320px){
-.navbar-brand h1 a {
-    font-size: .95em;
-}
-.header {
-    padding: 1em 0;
-}
-.banner-grids {
-    padding: 1em 0 1em;
-}
-a.button {
-    width: 41%;
-}
-.banner-grid {
-    padding: 0;
-}
-.banner-grid h3 {
-    font-size: 1.8em;
-}
-.brilliant-section h2, .about-section h2, .hosting-section h2, h2.type, .blog h2, .detailed-section h2, .testimonials h2, .faq-section h2, .history-section h2, .setting-section h2, .contact h2, .support-section h2, .linux-grid h2 {
-    font-size: 2.2em;
-}
-.team h3, .price-section h3, .post-section h3, .whatdo h3, .statistics h3, .feature-section h3, .related h3, .clients h3, .features h3, .solution-section h3, .responses h3, .coment-form h3, .date-table h3, .simple-prices h3, .supp-grid h3 {
-    font-size: 1.8em;
-}
-.brilliant-section, .about-section, .whatdo, .statistics, .solution-section, .blog, .responses, .related, .detailed-section, .date-table, .simple-prices, .faq-section, .testimonials, .history-section, .support-section, .our-client, .setting-section, .hosting-section, .feature-section, .linux-section, .tab-prices, .clients, .features, .typography, .contact, .register, .login-page,.coment-form {
-    padding: 1.2em 0;
-}
-.brilliant-right h4, .footer-grid h4, .about-grid1 h4, .what-right h4, .post-grid h4, .solution-grid h4, .blog-grid1 h4, .admin h4, .testimonials-grid h4, .history-left h4, .support-grid h4, .setting-grid h4, .hosting-grid h4, .feature-grid h4, .services-price h4, .features-grid h4, .client-grid h4 {
-    font-size: 1.2em;
-}
-.brilliant-grid {
-    padding: 0;
-}
-.brilliant-left {
-    width: 21%;
-    margin-right: 2%;
-}
-.brilliant-right {
-    width: 77%;
-}
+.navbar-brand h1 a {font-size: .95em;}
+.header {padding: 1em 0;}
+.banner-grids {padding: 1em 0 1em;}
+a.button {width: 41%;}
+.banner-grid {padding: 0;}
+.banner-grid h3 {font-size: 1.8em;}
+.brilliant-section h2, .about-section h2, .hosting-section h2, h2.type, .blog h2, .detailed-section h2, .testimonials h2, .faq-section h2, .history-section h2, .setting-section h2, .contact h2, .support-section h2, .linux-grid h2 {font-size: 2.2em;}
+.team h3, .price-section h3, .post-section h3, .whatdo h3, .statistics h3, .feature-section h3, .related h3, .clients h3, .features h3, .solution-section h3, .responses h3, .coment-form h3, .date-table h3, .simple-prices h3, .supp-grid h3 {font-size: 1.8em;}
+.brilliant-section, .about-section, .whatdo, .statistics, .solution-section, .blog, .responses, .related, .detailed-section, .date-table, .simple-prices, .faq-section, .testimonials, .history-section, .support-section, .our-client, .setting-section, .hosting-section, .feature-section, .linux-section, .tab-prices, .clients, .features, .typography, .contact, .register, .login-page,.coment-form {padding: 1.2em 0;}
+.brilliant-right h4, .footer-grid h4, .about-grid1 h4, .what-right h4, .post-grid h4, .solution-grid h4, .blog-grid1 h4, .admin h4, .testimonials-grid h4, .history-left h4, .support-grid h4, .setting-grid h4, .hosting-grid h4, .feature-grid h4, .services-price h4, .features-grid h4, .client-grid h4 {font-size: 1.2em;}
+.brilliant-grid {padding: 0;}
+.brilliant-left {width: 21%;margin-right: 2%;}
+.brilliant-right {width: 77%;}
 .da-thumbs li {
     width: 100%;
 }
@@ -3566,107 +3539,39 @@ ul.blog-ic li span {
 .simple-left h5 {
     font-size: 1.4em;
 }
-.faq-grids p {
-  margin-left: 0em; 
+.faq-grids p {margin-left: 0em; }
+.faq-grids {margin-top: 1em;}
+.testimonials-grid {padding: 0;}
+.testimonials-grid:nth-child(2) {margin: 1em 0;}
+.history-grid {padding: 0;}
+.support-grid {padding: 0;}
+.supp-grids {margin: 2em 0;}
+.client-grid {width: 100%;padding:0;}
+.client-grid1 {width: 100%;padding:0;margin-top: 2em;}
+.setting-grid {padding: 0 15px;}
+.login-left h3, .login-right h3, .register-top-grid h3, .register-bottom-grid h3 {font-size: 1.5em;}
+.login-right {padding: 0;}
+.login-right form {padding: 0em 0;}
+.hosting-grid {padding: 0;}
+.zoom-icon {width: 273px;height: 149px;}
+.feature-grid {padding: 0;}
+.servicesprices-grid {padding: 0;}
+.services-price {padding: 2em 1em;}
+a.button2 {width: 45%;}
+.linux-grid {padding: 0;}
+.linux-grid1 {padding: 0;margin-top: 2em;}
+.linux-grid ul {margin: 1em 0;}
+.left-tab {width: 90.2%;}
+.linux-prices {margin-top: 1em;}
+.linux-top h4, .contact-left h4 {font-size: 1.5em;}
+.linux-price {width: 100%;padding: 0;}
+.linux-price:nth-child(3),.linux-price:nth-child(4){margin-top: 1em;}
+.contact-left input[type="submit"], .contact-left input[type="reset"] {width: 30%;}
 }
-.faq-grids {
-    margin-top: 1em;
-}
-.testimonials-grid {
-    padding: 0;
-}
-.testimonials-grid:nth-child(2) {
-    margin: 1em 0;
-}
-.history-grid {
-    padding: 0;
-}
-.support-grid {
-    padding: 0;
-}
-.supp-grids {
-    margin: 2em 0;
-}
-.client-grid {
-    width: 100%;
-	padding:0;
-}
-.client-grid1 {
-    width: 100%;
-	padding:0;
-	margin-top: 2em;
-}
-.setting-grid {
-        padding: 0 15px;
-}
-.login-left h3, .login-right h3, .register-top-grid h3, .register-bottom-grid h3 {
-    font-size: 1.5em;
-}
-.login-right {
-    padding: 0;
-}
-.login-right form {
-    padding: 0em 0;
-}
-.hosting-grid {
-    padding: 0;
-}
-.zoom-icon {
-    width: 273px;
-    height: 149px;
-}
-.feature-grid {
-    padding: 0;
-}
-.servicesprices-grid {
-	padding: 0;
-}
-.services-price {
-    padding: 2em 1em;
-}
-a.button2 {
-    width: 45%;
-}
-.linux-grid {
-    padding: 0;
-}
-.linux-grid1 {
-    padding: 0;
-	margin-top: 2em;
-}
-.linux-grid ul {
-    margin: 1em 0;
-}
-.left-tab {
-    width: 90.2%;
-}
-.linux-prices {
-    margin-top: 1em;
-}
-.linux-top h4, .contact-left h4 {
-    font-size: 1.5em;
-}
-.linux-price {
-    width: 100%;
-    padding: 0;
-}
-.linux-price:nth-child(3),.linux-price:nth-child(4){
-    margin-top: 1em;
-}
-.contact-left input[type="submit"], .contact-left input[type="reset"] {
-    width: 30%;
-}
-}
-.content{
-    width: 90%;
-    margin: 10px auto;
-}
+.content{ width: 90%;margin: 10px auto;}
 @media(max-width:420px){
     .content{
         width: 100%;
-        margin: 10px auto;
     }
 }
-.content table{
-    text-align: center;
-}
+.content table{text-align: center;}
